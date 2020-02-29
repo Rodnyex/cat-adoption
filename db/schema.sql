@@ -16,6 +16,6 @@ INSERT INTO cats
 VALUES
 ("Macaroni"),
 ("Mr. Fluffypants"),
-("KEvin");
+("Kevin");
 
 SELECT * FROM cats;
