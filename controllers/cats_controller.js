@@ -15,6 +15,8 @@ const getCats = () => {
   });
 }
 
+module.exports = { getCats, createCat, updateCat, deleteCat };
+
 // create a cat
 /* accepts object parameter => {cat_name: "Mr. Mustaphales"} */
 const createCat = (catObj) => {
